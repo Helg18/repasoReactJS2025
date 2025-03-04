@@ -9,7 +9,7 @@ class Api {
     getNewDog = async () => request.get()
         .then(function (response) {
             // handle success
-            return response.data;
+            return response.data.image;
         });
 }
 
